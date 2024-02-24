@@ -1,0 +1,136 @@
+p {
+    font-size: 16px;
+    color: $color-gray-light;
+}
+
+.about {
+    padding: 30px;
+    flex-direction: column;
+    display: flex;
+}
+  
+.about-img {
+    width: 100%;
+    order: 2;
+  
+    img {
+      width: 100%;
+      border-radius: 15px;
+    }
+}
+
+.about-img2 {
+    width: 100%;
+    order: 2;
+  
+    img {
+      width: 100%;
+      border-radius: 15px;
+    }
+}
+  
+.about-txt {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 25px;
+  
+    h2 {
+      color: $color-black;
+      font-size: 50px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+}
+
+.about-txt2 {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.services__container {
+    margin: 0;
+    font-family: $font-montserrat;
+    .table-container {
+      margin-top: 20px;
+  
+      table {
+        width: 100%;
+        border-collapse: collapse;
+  
+        th, td {
+          padding: 15px;
+          border-bottom: 1px solid $color-black;
+        }
+  
+        th {
+          background-color: $color-blue;
+          color: $color-black;
+        }
+      }
+    }
+}
+  
+@media only screen and (min-width: 600px) {
+    .about {
+        flex-direction: row;
+    }
+
+    .about-img {
+        order: -1;
+        width: 50%;
+        margin-top: 90px;
+    }
+
+    .about-img2 {
+        width: 50%;
+        margin-top: 70px;
+    }
+
+    .about-txt {
+        width: 50%;
+        margin-left: 25px;
+        text-align: right;
+        h2 {
+            text-align: right;
+        }
+    }
+
+    .services__container {
+        margin: 20px;
+    }
+
+    .services__container .table-container table {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .about {
+        flex-direction: row;
+    }
+    
+    .about-img {
+        order: -1;
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .about-img2 {
+        width: 50%;
+        margin-top: 0;
+    }
+    
+    .about-txt {
+        width: 50%;
+        margin-left: 25px;
+        text-align: right;
+    }
+
+    .services__container {
+        width: 60%;
+        margin-left: 21%;
+    }
+}
