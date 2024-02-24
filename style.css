@@ -205,7 +205,6 @@ h1 {
   width: 80%;
   height: auto;
   margin: auto;
-  margin-top: 60px;
   margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -823,7 +822,7 @@ footer {
   .footer-distributed .footer-left {
     width: 30%;
     margin-right: 30px;
-    margin-left: 50px;
+    margin-left: 100px;
   }
   .footer-distributed h3 {
     font: normal 36px "Cookie", cursive;
@@ -842,7 +841,6 @@ footer {
   }
   .footer-distributed .footer-center {
     width: 35%;
-    margin-left: 100px;
   }
   .footer-distributed .footer-center i {
     font-size: 25px;
@@ -874,7 +872,6 @@ footer {
   }
   .footer-distributed .footer-right {
     width: 20%;
-    margin-left: 80px;
   }
   .footer-distributed .footer-company-about {
     line-height: 20px;
