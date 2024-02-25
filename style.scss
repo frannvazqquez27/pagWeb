@@ -1,3 +1,4 @@
+// Letras
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -15,6 +16,7 @@ $color-gray-light: #9B9B9B;
 @import '_services';
 @import '_contact';
 
+/*Estilos generales y móvil*/
 * {
   margin: 0;
   padding: 0;
@@ -159,6 +161,7 @@ img {
   border-radius: 15px;
 }
 
+/*FORMULARIO*/
 .formulario {
   padding: 30px;
   margin-top: 0;
@@ -233,6 +236,7 @@ form {
   }
 }
 
+/*FOOTER*/
 footer {
   background-color: #FFFFFF;;
   color: #000;
@@ -369,6 +373,7 @@ footer {
   }
 }
 
+/*TABLET*/
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
   .menu {
     justify-content: space-between;
@@ -468,6 +473,7 @@ footer {
   }
 }
 
+/*ESCRITORIO*/
 @media only screen and (min-width: 1024px) {
   .menu {
     justify-content: space-between;

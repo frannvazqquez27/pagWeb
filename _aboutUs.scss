@@ -72,7 +72,8 @@ p {
       }
     }
 }
-  
+
+/*TABLET*/
 @media only screen and (min-width: 600px) {
     .about {
         flex-direction: row;
@@ -107,6 +108,7 @@ p {
     }
 }
 
+/*ESCRITORIO*/
 @media only screen and (min-width: 1023px) {
     .about {
         flex-direction: row;
