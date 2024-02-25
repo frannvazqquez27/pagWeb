@@ -53,6 +53,9 @@ p {
 .services__container {
     margin: 0;
     font-family: $font-montserrat;
+    h2 {
+        display: none;
+    }
     .table-container {
       margin-top: 20px;
   

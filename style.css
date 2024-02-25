@@ -54,6 +54,9 @@ p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
+.services__container h2 {
+  display: none;
+}
 .services__container .table-container {
   margin-top: 20px;
 }
